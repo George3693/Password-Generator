@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+</head>
+<body>
+    <h1 class="title">Password generator</h1>
+    <div class="result-div"> 
+        <h1 class="resultt"  id="result"></h1>
+        <img  class="backgroundimage"src="./img/Shape.png"  >
+       
+    </div>
+    <div class="rectangle">
+        <h1 class="characterLength">Character Length</h1>
+        <h1 class="range-value" id="rangevalue"></h1>
+    <input class="firstInput" type="range" min="6" max="20" id="Input-Range">
+        <div class="checkboxClass">
+    <div>
+        <input type="checkbox" id="uppercase" class="uppercaseInput" >
+        <label for="uppercase">Include Uppercase Letters</label>
+    </div>
+    <div>
+        <input type="checkbox" id="lowercase">
+        <label for="lowercase">Include Lowercase Letters</label>
+    </div>
+    <div>
+        <input type="checkbox" id="numbers">
+        <label for="numbers">Include Numbers</label>
+    </div>
+    <div>
+        <input type="checkbox" id="symbols">
+        <label for="symbols">Include Symbols</label>
+    </div>
+
+
+    </div>
+
+        <button class="button" id="button" onclick="generationPassword()">GENERATE</button>
+    
+        <div class="strength">
+            <div> <h1 class="h1class">STRENGTH</h1> </div>
+            <div> <h1 id="passwordStrength" class="h2class" ></h1> </div>
+            <div id="div11" class="div1"></div>
+            <div id="div22" class="div2"></div>
+            <div id="div33" class="div3"></div>
+            <div  id="div44" class="div4"></div>
+     
+         </div>
+    </div>
+    <button style="font-size:24px">Button <i class="fa fa-car"></i></button>
+    <script src="./script.js"></script>
+</body>
+</html>

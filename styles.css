@@ -1,0 +1,215 @@
+body{
+    margin: 0px;
+    background-color: #08070B;
+    width: 100%;
+    height: 100vh;
+    
+}
+.title{
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+ color: #817D92;
+ position: absolute;
+height: 21px;
+left: 24.93%;
+right: 24.64%;
+top: calc(50% - 21px/2 - 300px);
+}
+.result-div{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    background-color: #24232C;
+    margin: auto;
+top: calc(50% - 21px/2 - 200px);
+display: flex;
+align-items: center;
+}
+.backgroundimage{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+   right: 5%;
+
+}
+.resultt{
+position: relative;
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 32px;
+/* identical to box height */
+/* Almost White */
+color: #E6E5EA;
+width: 85%;
+margin-left: 5%;
+
+}
+input[type=range] {
+    accent-color: #A4FFAF;
+  }
+  
+input[type=checkbox] {
+    accent-color: #A4FFAF;
+  }
+  label{
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #E6E5EA;
+
+  }
+.rectangle{
+    position: relative;
+    width: 90%;
+    height: 60%;
+    background-color:#24232C;
+    top: calc(50% - 21px/2 - 150px);
+    margin: auto;
+}
+.characterLength{
+    position: absolute;
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+/* Almost White */
+color: #E6E5EA;
+margin-left: 5px;
+
+}
+
+.range-value{
+    position: absolute;
+    right: 5%;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #A4FFAF;
+}
+
+.firstInput{
+    position: absolute;
+    width: 80%;
+    background-color: #A4FFAF;
+    top: calc(50% - 21px/2 - 130px);
+    
+
+}
+.button{
+
+    position: relative;
+    width: 90%;
+    height: 50px;
+    background-color: #A4FFAF;
+    margin: auto;
+    top: calc(70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+
+
+}
+.checkboxClass{
+    top: calc(50% - 21px/2 - 99px);
+    position: absolute;
+    left: 10px;
+}
+.strength{
+   position: relative;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #040405;
+    align-items: center;
+    justify-content: space-evenly;
+    top: calc(50%  - 50px);
+    margin: auto;
+
+
+}
+.h1class{
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+color: #817D92;
+
+}
+.h2class{
+position: relative;
+font-family: 'JetBrains Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+text-align: right;
+color: #E6E5EA;
+
+}
+.div1{
+    width: 10px;
+    height: 28px;
+    background-color: #18171F;
+    border: solid 2px white;
+    
+}
+.div2{
+    width: 10px;
+    height: 28px;
+    background-color: #18171F;
+    border: solid 2px white;
+}
+.div3{
+    width: 10px;
+    height: 28px;
+    background-color: #18171F;
+    border: solid 2px white;
+}
+.div4{
+    width: 10px;
+    height: 28px;
+    background-color: #18171F;
+    border: solid 2px white;
+}
+@media  (min-width: 500px) { 
+    .title{
+        
+    height: 50px;
+    top: calc(50% - 21px/2 - 269px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.rectangle{
+    width: 500px;
+
+}
+.result-div{
+    width: 500px;
+    position: relative;
+    height: 50px;
+    background-color: #24232C;
+    margin: auto;
+    top: calc(50% - 21px/2 - 165px);
+    display: flex;
+    align-items: center;
+}
+    
+}
