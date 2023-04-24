@@ -29,12 +29,12 @@ top: calc(50% - 21px/2 - 200px);
 display: flex;
 align-items: center;
 }
-.backgroundimage{
+.fa{
+    color: #A4FFAF;
     position: absolute;
-    width: 20px;
-    height: 20px;
+   font-size: 25px;
    right: 5%;
-
+cursor: pointer;
 }
 .resultt{
 position: relative;
@@ -120,8 +120,22 @@ margin-left: 5px;
     font-family: 'JetBrains Mono';
 font-style: normal;
 font-weight: 700;
-
-
+cursor: pointer;
+}
+.uppercaseInput{
+    cursor: pointer;
+}
+.low{
+    cursor: pointer;
+}
+.numb{
+    cursor: pointer;
+}
+.symbol{
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
 }
 .checkboxClass{
     top: calc(50% - 21px/2 - 99px);

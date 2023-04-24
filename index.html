@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
@@ -12,7 +13,7 @@
     <h1 class="title">Password generator</h1>
     <div class="result-div"> 
         <h1 class="resultt"  id="result"></h1>
-        <img  class="backgroundimage"src="./img/Shape.png"  >
+        <i onclick="copyText()" class="fa fa-clone" ></i>
        
     </div>
     <div class="rectangle">
@@ -24,16 +25,16 @@
         <input type="checkbox" id="uppercase" class="uppercaseInput" >
         <label for="uppercase">Include Uppercase Letters</label>
     </div>
-    <div>
-        <input type="checkbox" id="lowercase">
+    <div >
+        <input type="checkbox" id="lowercase" class="low">
         <label for="lowercase">Include Lowercase Letters</label>
     </div>
-    <div>
-        <input type="checkbox" id="numbers">
+    <div >
+        <input type="checkbox" id="numbers" class="numb">
         <label for="numbers">Include Numbers</label>
     </div>
     <div>
-        <input type="checkbox" id="symbols">
+        <input type="checkbox" id="symbols" class="symbol">
         <label for="symbols">Include Symbols</label>
     </div>
 
@@ -52,7 +53,7 @@
      
          </div>
     </div>
-    <button style="font-size:24px">Button <i class="fa fa-car"></i></button>
+   
     <script src="./script.js"></script>
 </body>
 </html>

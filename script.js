@@ -11,8 +11,7 @@ const div3 =document.getElementById("div33")
 const div4 =document.getElementById("div44")
 const strength=document.getElementById("passwordStrength")
 const buttonValue=document.getElementById("button")
-let copyText=document.getElementsByClassName("copyText")
- let value = 13;
+ let value = 13; 
 
 
 
@@ -120,3 +119,13 @@ if(lowerCase.checked && (Symbols.checked ||Number.checked)){
    div4.style.backgroundColor ="#18171F"
 }
 }
+function copyText(){
+
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(passwordResult.innerText);
+
+  // Alert the copied text
+  alert("Copied the text: " + passwordResult.innerText);
+}
+
